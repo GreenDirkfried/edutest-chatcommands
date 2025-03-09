@@ -2013,6 +2013,7 @@ minetest.register_chatcommand(
             "reversibly teleport self or other players"
         ),
         privs = {
+            teacher = true,
         },
         func = function(
             own_name,
